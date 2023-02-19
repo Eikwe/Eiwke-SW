@@ -1,0 +1,7 @@
+.navlist li {
+    display: inline-block;
+}
+.navlist li a{
+    color:afff;
+    margin: 0 10px 
+}
