@@ -1,7 +1,11 @@
+.navbar {
+    background-color: #212121 
+
+}
 .navlist li {
     display: inline-block;
 }
 .navlist li a{
-    color:afff;
+    color: afff;
     margin: 0 10px 
 }
