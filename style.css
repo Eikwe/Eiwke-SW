@@ -9,10 +9,12 @@
 }
 .navlist li a{
     color: afff;
-    margin: 0 10px 
+    margin: 0 10px;
 }
 
-body{height:100%;
-    background-image: url("Titelbild.jpg");
-    background-repeat:  no-repeat;
-    background-position-y: 3cm;}
+
+
+img {width:100%;
+    height: auto;
+}
+    
