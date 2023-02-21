@@ -1,8 +1,11 @@
-
-
-.navbar {
-    background-color: #212121 
-
+ul {   
+    margin:0;
+    padding: 0;
+    
+    box-shadow: 0px 2px 4px;
+    background-color: #bdecb6;
+    overflow: auto;
+   
 }
 .navlist li {
     display: inline-block;
@@ -24,4 +27,6 @@ img {width:100%;
     text-align: center;
     
 }
+
+
 
