@@ -18,17 +18,10 @@ img {width:100%;
     height: auto;
 }
 
-
-.slider-wrapper {
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto; 
+.elfsight-app-aee36ec5-11aa-4c8d-87ba-66ac25fb35a6 {
+    width:110%;
+    margin-left: 200px;
+    text-align: center;
+    
 }
 
-.slider {
-    display:flex;
-    aspect-ratio: 16 / 9 ;
-    overflow-x: auto;
-
-
-}
