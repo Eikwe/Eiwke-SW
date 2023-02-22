@@ -35,7 +35,54 @@
     justify-content: space-between;
     }
         
-     
+    #slider {
+    overflow: hidden;}
+
+
+
+#slider figure  {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left; 
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% { 
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+
+    75% {   
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+    }
     </style>
 
 </head>
@@ -55,7 +102,29 @@
     </header>
    
     <br>
-    <img class="Titel" src="Titelbild.jpg">
+    <div id="slider">
+        <figure>
+            <img src="Titelbild.jpg">
+            <img src="Schaukasten.jpg">
+            <img src="GesamtbildIndex.jpg">
+            <img src="Solar-Titelbild.jpg">
+            <img src="Titelbild.jpg">
+
+
+
+
+        </figure>
+
+
+    </div>
+
+
+   
+    
+
+
+
+
     <u> <h1> UNSERE PROJEKTE </h1> </u>
 <div class="IconsD"> 
 <div> 

@@ -1,12 +1,5 @@
 
 
-
-div {
-    padding: 30px;
-    font-family: serif;
-
-}
-
 h1 {    
     text-align: center;
     font-size: 5vw;
@@ -30,10 +23,10 @@ ul {
 }
 
 
-
 img {width:100%;
     height: auto;
 }
+
 
 
 
@@ -41,6 +34,14 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.Impressum {
+    float: right;
+}     
+
+
+
+
 @media only screen and (min-width: 768px) {
 body {
     margin-left: 50px;
@@ -80,6 +81,10 @@ body {
                }
             
            }
+           .LogoRathenau {
+           
+            float: left;
+           }
         
 
 
@@ -107,25 +112,17 @@ body {
     
    }
 
-
-.Impressum {
-    float: right;
-}     
-
-
-@media only screen and (min-width: 768px) {
 .LogoRathenau {
-           
+            width: 40%;
             float: left;
            }
-    }
+    
     
 
 
-@media only screen and (min-width: 1190px) {
-.LogoRathenau {
-        width: 40%;
-        float: left;
-       }
-}
+
+
+
+
+
 
