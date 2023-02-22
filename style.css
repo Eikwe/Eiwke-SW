@@ -1,8 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-   
-}
+
 
 
 div {
@@ -18,7 +14,7 @@ h1 {
 }
 
 ul {   
-    margin:0;
+    margin: 0px;
     padding: 0;
     box-shadow: 0px 2px 4px;
     background-color: #bdecb6;
@@ -30,7 +26,7 @@ ul {
 }
 .navlist li a{
     color: afff;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 
@@ -41,9 +37,95 @@ img {width:100%;
 
 
 
-.elfsight-app-aee36ec5-11aa-4c8d-87ba-66ac25fb35a6 {
-    width:110%;
-    margin-left: 200px;
-    text-align: center;
-    
+body {
+    margin-left: 20px;
+    margin-right: 20px;
 }
+@media only screen and (min-width: 768px) {
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+}
+
+@media only screen and (min-width: 1190px) {
+body { 
+        margin-left: 150px;
+        margin-right: 150px;
+
+
+        
+    }
+    }
+
+@media only screen and (min-width: 768px) {
+.IconsD {
+            display:flex;
+             }
+            
+            
+    .Kunst {
+                float: left;
+                width: 106%;
+                
+               }
+    .Solar {
+                float: center;
+                width: 106%;
+                
+               }
+        .Partner {
+               float: right;
+               width: 106%;
+               }
+            
+           }
+        
+
+
+
+@media only screen and (min-width: 1190px) {
+.IconsD {
+    display:flex;
+    margin-left: 70px;
+    margin-right: 70px; }
+
+.Kunst {
+        float: left;
+        width: 80%;
+        
+       }
+.Solar {
+        float: center;
+        width: 80%;
+        
+       }
+.Partner {
+       float: right;
+       width: 80%;
+       }
+    
+   }
+
+
+.Impressum {
+    float: right;
+}     
+
+
+@media only screen and (min-width: 768px) {
+.LogoRathenau {
+           
+            float: left;
+           }
+    }
+    
+
+
+@media only screen and (min-width: 1190px) {
+.LogoRathenau {
+        width: 40%;
+        float: left;
+       }
+}
+
