@@ -37,3 +37,38 @@
 
 }
 
+<div class="Bilder "> 
+    <li><a href="Solarprojekt.html"> <img src="Hand.jpeg"> </a></li>
+    <li><a href="Kunstprojekt.html">  <img src="Hand2.jpeg"> </a></li> 
+    <li><a href="Partnerschaft.html"> <img src="Hand3.jpeg"> </a></li>
+    </div>
+    
+    
+
+    <div class="Text">
+        <li><a href="Solarprojekt.html"> Solarprojekt </a></li> 
+        <li><a href="Kunstprojekt.html"> Kunstprojekt </a></li>
+        <li><a href="Partnerschaft.html"> Partnerschaft</a></li>
+
+
+    </div>
+
+
+    <div class="Icons">
+        <div class="Solar "> 
+            <li><a href="Solarprojekt.html"> <img class="Hand" src="Hand.jpeg"> </a></li>
+            <li><a href="Solarprojekt.html"> Solarprojekt </a></li> 
+            </div>
+            
+        
+            <div class="Kunst">
+            <li><a href="Kunstprojekt.html">  <img class="Fus" src="Hand2.jpeg"> </a></li> 
+            <li><a href="Kunstprojekt.html"> Kunstprojekt </a></li>
+            </div>
+    
+            <div class="Partner">
+                <li><a href="Partnerschaft.html"> <img class="Hand3" src="Hand3.jpeg"> </a></li>    
+                <li><a href="Partnerschaft.html"> Partnerschaft</a></li>
+            </div>
+        
+        </div>

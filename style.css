@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+div {
+    padding: 30px;
+    font-family: serif;
+
+}
+
+h1 {    
+    text-align: center;
+    font-size: 5vw;
+
+}
+
 ul {   
     margin:0;
     padding: 0;
@@ -7,6 +26,7 @@ ul {
 }
 .navlist li {
     display: inline-block;
+    font-size: 30px;
 }
 .navlist li a{
     color: afff;
@@ -19,10 +39,11 @@ img {width:100%;
     height: auto;
 }
 
+
+
 .elfsight-app-aee36ec5-11aa-4c8d-87ba-66ac25fb35a6 {
     width:110%;
     margin-left: 200px;
     text-align: center;
     
 }
-
