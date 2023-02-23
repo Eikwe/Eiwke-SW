@@ -38,9 +38,25 @@ body {
     margin: 0 2px;
 }    
 
-  
+            
+.Kunst {
+    float: center;
+    width: 80%;
+   }
+.Solar {
+    float: center;
+    width: 80%;
+   }
+.Partner {
+   float: center;
+   width: 80%;
+   }
 
-
+   .Kunst:hover, .Solar:hover, .Partner:hover {
+    -ms-transform: scale(1.5); /* IE  */
+  -webkit-transform: scle(1.5); /* Safari */
+  transform: scale(1.1);
+   }
 
 @media only screen and (min-width: 768px) {
     body {
@@ -75,7 +91,7 @@ body {
            .Kunst:hover, .Solar:hover, .Partner:hover {
             -ms-transform: scale(1.5); /* IE  */
           -webkit-transform: scle(1.5); /* Safari */
-          transform: scale(1.2);
+          transform: scale(1.25);
            }
            .navlist li {
             display: inline-block;
@@ -121,7 +137,7 @@ body {
     .Kunst:hover, .Solar:hover, .Partner:hover {
         -ms-transform: scale(1.5); /* IE  */
       -webkit-transform: scle(1.5); /* Safari */
-      transform: scale(1.2);
+      transform: scale(1.3);
        }
        .navlist li {
         display: inline-block;
@@ -131,4 +147,8 @@ body {
         color: afff;
         margin: 0 30px;
     }
+    .Logo {
+        width: 70%;
+    }
+
 }
