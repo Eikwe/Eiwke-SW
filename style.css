@@ -18,8 +18,8 @@ ul {
 
 
 body {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .Impressum {
@@ -31,12 +31,12 @@ body {
    
 .navlist li {
     display: inline-block;
-    font-size: 15px;
-    justify-content: space-between;
+    font-size: 14px;
+    
 }
 .navlist li a{
     color: afff;
-    margin: 0 2px;
+    margin: 0 3px;
 }    
 
             
@@ -236,7 +236,11 @@ margin-left: -140px;}
     margin-left: -180px;
 
    }
-  
+   .footer{
+    background-color: rgb(78, 40, 40);
+    height: 250px;
+}
+
 }
 
 
