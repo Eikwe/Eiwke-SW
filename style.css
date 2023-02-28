@@ -5,23 +5,19 @@ height: auto;}
 h1 {    
     text-align: center;
     font-size: 5vw;
-
 }
 
 ul {   
     margin: 0px;
     padding: 0;
     box-shadow: 0px 2px 4px;
-    background-color: #bdecb6;
-   
+    background-color: #bdecb6; 
 }
-
-
 
 body {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: Georgia;
 }
 
@@ -30,8 +26,6 @@ body {
     font-size: 20px;
     margin-right: 20px;
 }     
-
-
    
 .navlist li {
     display: inline-block;
@@ -42,7 +36,6 @@ body {
     color: afff;
     margin: 0 2px;
 }    
-
             
 .Kunst {
     float: center;
@@ -68,7 +61,6 @@ body {
     height: auto;
     margin-left: 10px;
 }    
-
 
 .footer{
     background-color: rgb(78, 40, 40);
@@ -143,6 +135,7 @@ margin-left: -140px;}
     body {
         margin-left: 45px;
         margin-right: 45px;
+        font-size: 30px;
     }
 .IconsD {
             display:flex;
@@ -197,6 +190,44 @@ margin-left: -140px;}
             width: 70%;
             margin: auto;
         }
+
+    
+    .naBiG{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .naBiG2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+    
+    }
+    .naBiG-Bild {
+        width: 50%;
+        float: left;
+        padding: 50px;
+    }
+    
+    .naBiG-Bild2 {
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .naBiG-Text {
+       
+        padding-top: 130px;
+    
+    }
+
+    .naBiG-Text2 {
+        float: left;
+        margin-left: -145%;
+       font-size: 25px;
+       padding-top: 50px;
+    }
         
     }
 
@@ -250,7 +281,7 @@ margin-left: -140px;}
 
  .Rathenau{
         float: left;
-        width: 500px;
+        width: 50%;;
         height: auto;
         margin-left: 100px;
     }    
@@ -276,12 +307,14 @@ margin-left: -140px;}
    }
    .footer{
     background-color: rgb(78, 40, 40);
-    height: 280px;
+    height: 40%;
 }
     .text {
         margin-left: -6px;
     }
 
+
+  
     .naBiG{
         display: flex;
         justify-content: space-between;
@@ -291,29 +324,35 @@ margin-left: -140px;}
     .naBiG2{
         display: flex;
         justify-content: space-between;
-        margin-top: 240px;
+        padding-top: 240px;
+       
     
     }
     .naBiG-Bild {
         width: 50%;
         float: left;
         padding: 50px;
-        
-       
     }
     
     .naBiG-Bild2 {
-        width: 50%;
+        width: 100%;
         padding: 50px;
-    
+
+        
        
     }
 
-    .naBiG-Text, .naBiG-Text2 {
-        font-size: 40px;
-        padding-top: 250px;
+    .naBiG-Text {
+        font-size: 35px;
+        padding-top: 230px;
+    
     }
-   
+    .naBiG-Text2 {
+        float: left;
+        margin-left: -122%;
+        padding-top: 160px;
+        font-size: 35px;
+    }
 }
 
 
