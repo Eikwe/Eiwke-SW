@@ -17,7 +17,7 @@ ul {
 body {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Georgia;
 }
 
@@ -104,7 +104,8 @@ margin-left: -140px;}
 .naBiG2{
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+ 
+    
    
 
 }
@@ -112,23 +113,22 @@ margin-left: -140px;}
     width: 50%;
     float: left;
     padding: 50px;
-    background-color: white;
+   
 
 }
 
 .naBiG-Bild2 {
-    width: 50%;
     padding: 50px;
     background-color: white;
-
+   
+ 
 }
 .naBiG-Text {
-    font-size: 15px;
-}
-.naBiG-Text2 {
+    padding-top: -20px;
     font-size: 40px;
-    margin-left: -16px;
 }
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -257,10 +257,7 @@ margin-left: -140px;}
        float: right;
        width: 80%;
        }
-       .LogoRathenau {
-        width: 40%;
-        float: left;
-       }
+       
     
 .Kunst:hover, .Solar:hover, .Partner:hover {
         -ms-transform: scale(1.5); /* IE  */
@@ -281,7 +278,7 @@ margin-left: -140px;}
 
  .Rathenau{
         float: left;
-        width: 50%;;
+        width: 40%;;
         height: auto;
         margin-left: 100px;
     }    
@@ -305,15 +302,14 @@ margin-left: -140px;}
     margin-left: -180px;
 
    }
-   .footer{
-    background-color: rgb(78, 40, 40);
-    height: 40%;
-}
+
     .text {
         margin-left: -6px;
     }
 
-
+h1{
+    font-size: 50px;
+}
   
     .naBiG{
         display: flex;
@@ -321,13 +317,8 @@ margin-left: -140px;}
         
     }
     
-    .naBiG2{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 240px;
-       
+   
     
-    }
     .naBiG-Bild {
         width: 50%;
         float: left;
@@ -335,11 +326,10 @@ margin-left: -140px;}
     }
     
     .naBiG-Bild2 {
-        width: 100%;
+        width: 102%;
         padding: 50px;
-
-        
-       
+        margin-left: -35px;
+        margin-top: -100px;
     }
 
     .naBiG-Text {
@@ -347,12 +337,11 @@ margin-left: -140px;}
         padding-top: 230px;
     
     }
-    .naBiG-Text2 {
-        float: left;
-        margin-left: -122%;
-        padding-top: 160px;
-        font-size: 35px;
+    .footer{
+        background-color: rgb(78, 40, 40);
+        height: 30%;
     }
+    
 }
 
 
