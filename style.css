@@ -1,348 +1,360 @@
-
 img{ width: 100%;
-height: auto;}
-
-h1 {    
-    text-align: center;
-    font-size: 5vw;
-}
-
-ul {   
-    margin: 0px;
-    padding: 0;
-    box-shadow: 0px 2px 4px;
-    background-color: #bdecb6; 
-}
-
-body {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 35px;
-    font-family: Georgia;
-}
-
-.Impressum {
-    float: right;
-    font-size: 20px;
-    margin-right: 20px;
-}     
-   
-.navlist li {
-    display: inline-block;
-    font-size: 13px;
+    height: auto;}
     
-}
-.navlist li a{
-    color: afff;
-    margin: 0 2px;
-}    
-            
-.Kunst {
-    float: center;
-    width: 60%;
-   }
-.Solar {
-    float: center;
-    width: 60%;
-   }
-.Partner {
-   float: center;
-   width: 60%;
-   }
-
-.Kunst:hover, .Solar:hover, .Partner:hover {
--ms-transform: scale(1.5); /* IE  */
-  -webkit-transform: scle(1.5); /* Safari */
-  transform: scale(1.05);
-   }
-   .Rathenau{
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-left: 10px;
-}    
-
-.footer{
-    background-color: rgb(78, 40, 40);
-    height: 200px;
-}
-
-.Spenden {
-    background-image: url("Titelbild.jpg") ;
-    background-size: cover;
-    background-position: top;
-    padding: 170px;
-    font-size: 30px;
-}    
-.textposition {
-text-align: left;
-margin-left: -140px;
-margin-top: -130px;
-
-}
-.Button {
-font-size: 1.5rem;
-font-weight: bold;
-padding: 1.5em 3em;
-cursor: pointer;
-border: none;
-border-radius: 1em;
-margin-left: 30px;
-
-}
-.button:hover {
-background-color: rgb(63, 236, 63) }
-.PositionSpende {
-margin-left: -140px;}
-
-.naBiG{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.naBiG2{
-    display: flex;
-    justify-content: space-between;
- 
-    
-   
-
-}
-.naBiG-Bild {
-    width: 50%;
-    float: left;
-    padding: 50px;
-   
-
-}
-
-.naBiG-Bild2 {
-    padding: 50px;
-    background-color: white;
-   
- 
-}
-.naBiG-Text {
-    padding-top: -20px;
-    font-size: 40px;
-}
-
-
-
-
-@media only screen and (min-width: 768px) {
-    body {
-        margin-left: 45px;
-        margin-right: 45px;
-        font-size: 30px;
+    h1 {    
+        text-align: center;
+        font-size: 5vw;
     }
-.IconsD {
-            display:flex;
-             }
-            
-            
-    .Kunst {
-                float: left;
-                width: 90%;
-                
-               }
-    .Solar {
-                float: center;
-                width: 90%;
-                
-               }
-        .Partner {
-               float: right;
-               width: 90%;
-               }
-            
-           
-    .Kunst:hover, .Solar:hover, .Partner:hover {
-     -ms-transform: scale(1.5); /* IE  */
-     -webkit-transform: scle(1.5); /* Safari */
-     transform: scale(1.2);
-           }
-           .navlist li {
-            display: inline-block;
-            font-size: 28px;
-        }
-        .navlist li a{
-            color: afff;
-            margin: 0 15px;
-        }
-        .Text {
-            margin-left: 30px;
-           
-        }
-        .Rathenau{
-            float: left;
-            width: 400px;
-            height: auto;
-            margin-left: 50px;
-        }    
-        .Impressum {
-            margin-right: 50px;
-            font-size: 30px;
-        }
-       
-        .WinnerBilder {
-            width: 70%;
-            margin: auto;
-        }
-
     
+    ul {   
+        margin: 0px;
+        padding: 0;
+        box-shadow: 0px 2px 4px;
+        background-color: #bdecb6; 
+    }
+    
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 35px;
+        font-family: Georgia;
+    }
+    
+    .Impressum {
+        float: right;
+        font-size: 20px;
+        margin-right: 20px;
+    }     
+       
+    .navlist li {
+        display: inline-block;
+        font-size: 13px;
+        
+        
+    }
+    .navlist li a{
+        margin: 0 2px;
+    }    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {    
+    text-decoration: underline;
+    }
+    
+                
+    .Kunst {
+        float: center;
+        width: 60%;
+       }
+    .Solar {
+        float: center;
+        width: 60%;
+       }
+    .Partner {
+       float: center;
+       width: 60%;
+       }
+    
+    .Kunst:hover, .Solar:hover, .Partner:hover {
+    -ms-transform: scale(1.5); /* IE  */
+      -webkit-transform: scle(1.5); /* Safari */
+      transform: scale(1.05);
+       }
+       .Rathenau{
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }    
+    
+    .footer{
+        background-color: rgb(78, 40, 40);
+        height: 200px;
+    }
+    
+    .Spenden {
+        background-image: url("Titelbild.jpg") ;
+        background-size: cover;
+        background-position: top;
+        padding: 170px;
+        font-size: 30px;
+    }    
+    .textposition {
+    text-align: left;
+    margin-left: -140px;
+    margin-top: -130px;
+    
+    }
+    .Button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5em 3em;
+    cursor: pointer;
+    border: none;
+    border-radius: 1em;
+    margin-left: 30px;
+    
+    }
+    .button:hover {
+    background-color: rgb(63, 236, 63) }
+    .PositionSpende {
+    margin-left: -140px;}
+    
+    .naBiG-Text {
+        width: 50%;
+        margin-right: 20px;
+        padding-bottom: 120px;
+    }
     .naBiG{
         display: flex;
         justify-content: space-between;
-        
-        
+       
     }
     
     .naBiG2{
         display: flex;
         justify-content: space-between;
-        padding-top: 10%;
+     
+        
+       
     
     }
     .naBiG-Bild {
-        width: 50%;
+        width: 40%;
         float: left;
         padding: 50px;
+        margin-left: -50px;
+    
+        
     }
     
     .naBiG-Bild2 {
-        width: 100%;
-        padding: 30px;
-    }
-    
-    .naBiG-Text {
-       
-        padding-top: 130px;
-    
-    }
-
-    .naBiG-Text2 {
-        float: left;
-        margin-left: -145%;
-       font-size: 25px;
-       padding-top: 50px;
-    }
-        
-    }
-
-        
-@media only screen and (min-width: 1100px) {
-    body { 
-        margin-left: 150px;
-        margin-right: 150px;
-        
-    }
-.IconsD {
-    display:flex;
-    margin-left: 70px;
-    margin-right: 70px; }
-
-.Kunst {
-        float: left;
-        width: 80%;
-        
-       }
-.Solar {
-        float: center;
-        width: 80%;
-        
-       }
-.Partner {
-       float: right;
-       width: 80%;
-       }
-       
-    
-.Kunst:hover, .Solar:hover, .Partner:hover {
-        -ms-transform: scale(1.5); /* IE  */
-      -webkit-transform: scle(1.5); /* Safari */
-      transform: scale(1.25);
-       }
-.navlist li {
-        display: inline-block;
-        font-size: 30px;
-    }
-.navlist li a{
-        color: afff;
-        margin: 0 30px;
-    }
-.Logo {
-        width: 70%;
-    }
-
- .Rathenau{
-        float: left;
-        width: 40%;;
-        height: auto;
-        margin-left: 100px;
-    }    
-    .Impressum {
-        margin-right: 150px;
-        font-size: 30px;
-    }
-    .Spenden {
-        padding: 250px;
-        
-    }    
-   .textposition {
-    margin-left: -180px;
-    margin-top: -170px;
-   }
-   .Button {
-    padding: 1em 2em;
-   
-   }
-   .PositionSpende {
-    margin-left: -180px;
-
-   }
-
-    .text {
-        margin-left: -6px;
-    }
-
-h1{
-    font-size: 50px;
-}
-  
-    .naBiG{
-        display: flex;
-        justify-content: space-between;
-        
-    }
-    
-   
-    
-    .naBiG-Bild {
-        width: 50%;
-        float: left;
         padding: 50px;
-    }
-    
-    .naBiG-Bild2 {
-        width: 102%;
-        padding: 50px;
-        margin-left: -35px;
+        background-color: white;
+        margin-left: -50px;
         margin-top: -100px;
-    }
-
-    .naBiG-Text {
-        font-size: 35px;
-        padding-top: 230px;
-    
-    }
-    .footer{
-        background-color: rgb(78, 40, 40);
-        height: 30%;
+  
+     
     }
     
-}
-
+    
+    
+    
+    @media only screen and (min-width: 768px) {
+        body {
+            margin-left: 45px;
+            margin-right: 45px;
+            font-size: 30px;
+        }
+    .IconsD {
+                display:flex;
+                 }
+                
+                
+        .Kunst {
+                    float: left;
+                    width: 90%;
+                    
+                   }
+        .Solar {
+                    float: center;
+                    width: 90%;
+                    
+                   }
+            .Partner {
+                   float: right;
+                   width: 90%;
+                   }
+                
+               
+        .Kunst:hover, .Solar:hover, .Partner:hover {
+         -ms-transform: scale(1.5); /* IE  */
+         -webkit-transform: scle(1.5); /* Safari */
+         transform: scale(1.2);
+               }
+               .navlist li {
+                display: inline-block;
+                font-size: 28px;
+            }
+            .navlist li a{
+                color: afff;
+                margin: 0 15px;
+            }
+            .Text {
+                margin-left: 30px;
+               
+            }
+            .Rathenau{
+                float: left;
+                width: 400px;
+                height: auto;
+                margin-left: 50px;
+            }    
+            .Impressum {
+                margin-right: 50px;
+                font-size: 30px;
+            }
+           
+            .WinnerBilder {
+                width: 70%;
+                margin: auto;
+            }
+    
+        
+        .naBiG{
+            display: flex;
+            justify-content: space-between;
+            
+            
+        }
+        
+        .naBiG2{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10%;
+        
+        }
+        .naBiG-Bild {
+            width: 50%;
+            float: left;
+            padding: 50px;
+        }
+        
+        .naBiG-Bild2 {
+            width: 100%;
+            padding: 30px;
+        }
+        
+        .naBiG-Text {
+           
+            padding-top: 130px;
+        
+        }
+    
+        .naBiG-Text2 {
+            float: left;
+            margin-left: -145%;
+           font-size: 25px;
+           padding-top: 50px;
+        }
+            
+        }
+    
+            
+    @media only screen and (min-width: 1100px) {
+        body { 
+            margin-left: 150px;
+            margin-right: 150px;
+            
+        }
+    .IconsD {
+        display:flex;
+        margin-left: 70px;
+        margin-right: 70px; }
+    
+    .Kunst {
+            float: left;
+            width: 80%;
+            
+           }
+    .Solar {
+            float: center;
+            width: 80%;
+            
+           }
+    .Partner {
+           float: right;
+           width: 80%;
+           }
+           
+        
+    .Kunst:hover, .Solar:hover, .Partner:hover {
+            -ms-transform: scale(1.5); /* IE  */
+          -webkit-transform: scle(1.5); /* Safari */
+          transform: scale(1.25);
+           }
+    .navlist li {
+            display: inline-block;
+            font-size: 30px;
+        }
+    .navlist li a{
+           
+            margin: 0 30px;
+        }
+    .Logo {
+            width: 70%;
+        }
+    
+     .Rathenau{
+            float: left;
+            width: 40%;;
+            height: auto;
+            margin-left: 100px;
+        }    
+        .Impressum {
+            margin-right: 150px;
+            font-size: 30px;
+        }
+        .Spenden {
+            padding: 250px;
+            
+        }    
+       .textposition {
+        margin-left: -180px;
+        margin-top: -170px;
+       }
+       .Button {
+        padding: 1em 2em;
+       
+       }
+       .PositionSpende {
+        margin-left: -180px;
+    
+       }
+    
+        .text {
+            margin-left: -6px;
+        }
+    
+    h1{
+        font-size: 50px;
+    }
+      
+        .naBiG{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        
+       
+        
+        .naBiG-Bild {
+            width: 50%;
+            float: left;
+            padding: 50px;
+        }
+        
+        .naBiG-Bild2 {
+            width: 102%;
+            padding: 50px;
+            margin-left: -35px;
+            margin-top: -100px;
+        }
+    
+        .naBiG-Text {
+            font-size: 35px;
+            padding-top: 230px;
+        
+        }
+        .footer{
+            background-color: rgb(78, 40, 40);
+            height: 30%;
+        }
+        
+    }
+    
+    
 
 
